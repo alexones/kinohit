@@ -21,13 +21,6 @@ while($row = mysqli_fetch_assoc($sql)){
   <?php require('head.php');?>
   <div class="fondop">
 
-
-<?php foreach($cars as $car): ?>
-  <div>
-  <a href="/film.php?id=<?= $car['id']?>"><?= $car['name']?></a>
-  </div>
-<?php endforeach ?>
-<div id="footer">
 </div>
 
 
